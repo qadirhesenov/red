@@ -1,0 +1,114 @@
+.sec5{
+    width: 100%;
+    height: 888px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        width: 84%;
+        height: 90%;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    .top{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        h1{
+            font-size: 35px;
+            font-weight: 700;
+            color: #111;
+            line-height: 130%;
+            margin-bottom: 10px;
+            text-align: start;
+        }
+        .line{
+            height: 4px;
+            width: 100px;
+            background-color: #D21E2B;
+            border-radius: 35%;
+            margin-top: 15px;
+        }
+        p{
+            font-size: 16px;
+            color: #999;
+            line-height: 1.7;
+            margin-bottom: 0px;
+            text-align: start;
+            margin-top: 22px;
+        }
+    }
+    .main{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .box{
+            width: 300px;
+            height: 465px;
+            display: flex;
+            flex-direction: column;
+            background-color: #fff;
+          
+            span{
+                display: inline-block;
+                background: #d21e2b;
+                color: #fff;
+                width: 70px;
+                font-weight: 600;
+                font-size: 16px;
+                border-radius: 8px;
+                padding: 8px 10px;
+                margin-left: 20px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            h4{
+                font-size: 19px;
+                margin-left: 20px;
+                margin-top: 14px;
+                font-weight: bolder;
+            }
+            img{
+                margin-top: 60px;
+            }
+        }
+    }
+    .container{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .btn{
+            width: 180px;
+            height: 55px;
+            background:#d21e2b;;
+            border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span{
+                color: black;
+                font-weight: 600;
+            }
+            &:hover{
+                &:hover{
+                    background-color: #222;
+                    span{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+}

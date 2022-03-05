@@ -1,0 +1,13 @@
+@mixin ortalama{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin rowortalama{
+    display: flex;
+    justify-content: center;
+}
+@mixin colortalama {
+    display: flex;
+    align-items: center;
+}

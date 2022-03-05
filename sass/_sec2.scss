@@ -1,0 +1,83 @@
+.sec2{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ececec;
+    .container{
+        height: 80%;
+        width: 84%;
+        display: flex;
+        .col1{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            h1{
+                font-size: 30px;
+                font-weight: 600;
+                color: #111;
+                line-height: 160%;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 400;
+                color: #999;
+                line-height: 200%;
+                margin-bottom: 15px;
+                width: 92%;
+                text-align: start;
+            }
+            ul{
+                li{
+                    color: #222;
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin-top: 24px;
+                    font-weight: bold;
+                    i{
+                        color: #D21E2B;
+                        margin-right: 16px;
+                    }
+                }
+            }
+            button{
+                display: inline-block;
+                font-weight: 500;
+                font-size: 14px;
+                padding: 11px 22px 11px 22px;
+                width: 120px;
+                height: 40px;
+                border: none;
+                border-radius: 30px;
+                background: #D21E2B;
+                margin-top: 50px;
+                color: black;
+                font-weight: 500;
+                &:hover{
+                    background-color: #222;
+                    color: white;
+                    transition: 1s all;
+                }
+            }
+            .line{
+                height: 3px;
+                width: 100px;
+                background-color: #D21E2B;
+                border-radius: 35%;
+                margin-top: 15px;
+                margin-bottom: 25px;
+            }
+
+        }
+        .col2{
+            width: 50%;
+            height: 100%;
+            background-image: url("../img/img1.jpg");
+            border-radius:10px ;
+            box-shadow: -3px 5px 10px 1px rgb(189, 181, 181);
+        }
+    }
+}

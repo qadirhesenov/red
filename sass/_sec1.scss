@@ -1,0 +1,161 @@
+.sec1{
+    width: 100%;
+    height: 723px;
+    background-color: #F9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        width: 84%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        .top{
+            width: 100%;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h1{
+                font-size: 35px;
+                font-weight: 700;
+                color: #111;
+                line-height: 130%;
+                margin-bottom: 10px;
+            }
+            .line{
+                height: 3px;
+                width: 100px;
+                background-color: #D21E2B;
+                border-radius: 35%;
+                margin-top: 15px;
+            }
+            p{
+                font-size: 16px;
+                color: #999;
+                line-height: 1.7;
+                margin-bottom: 0px;
+                text-align: center;
+                margin-top: 22px;
+            }
+        }
+        .boxes{
+            margin-top: 100px;
+            width: 100%;
+            height: 300px;
+            display: flex;
+            justify-content: space-between;
+            .box{
+                width: 31%;
+                height: 100%;
+                box-shadow: -3px 2px 100px 1px rgb(189, 181, 181);
+                background-color:white;
+                border-radius:10px;
+                position: relative;
+                transition:  1s ease-out;
+
+                &:hover{
+                    transition: all 0.4s ease-in-out;
+                    .logo{
+                        background-color: #D21E2B;
+                        transition: 1s ease-in-out;
+                        i{
+                            color: white;
+                        }
+                        }
+                        .logo.red{
+                            background-color: #f5f5f5;
+                            i{
+                                color:#D21E2B;
+                            }
+                        }
+              
+                }
+                .logo{
+                    float: right;
+                    width: 120px;
+                    height: 120px;
+                    background-color: #f5f5f5;
+                    border-bottom-left-radius:136px ;
+                    border-top-right-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    &.red{
+                        background-color: #D21E2B;
+                        i{
+                            color: #f5f5f5;
+                        }
+                    }
+                    i{
+                        font-size: 48px;
+                        margin-left: 20px;
+                        margin-bottom: 10px;
+                        color: #D21E2B;
+                
+                    }
+                }
+                .row1{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 75%;
+                    height: 100px;
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 40px;
+                    margin-top: 40px;
+                    h1{
+                        color: #333;
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 1.5;
+                        margin-bottom: 10px;
+                    }
+                    h2{
+                        color: #333;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 1.5;
+                    }
+                    .line{
+                        height: 3px;
+                        width: 100px;
+                        background-color: #D21E2B;
+                        border-radius: 35%;
+                        margin-top: 15px;
+                    }
+                }
+                .rov{
+                    width: 75%;
+                    height: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 40px;
+                    margin-top: 40px;
+                    position: absolute;
+                    top: 100px;
+                    height: 70px;
+                    p{
+                        font-size: 18px;
+                        color: #999;
+                        line-height: 1.7;
+                        margin-bottom: 0px;
+                        text-align: start
+
+
+                    }
+                 }
+            }
+        }
+   
+    .altbox{
+        width: 100px;
+        height: 100px;
+        background-color: #D21E2B;
+        display: flex;
+
+    }
+    }
+     
+}
